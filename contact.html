@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Kyle Kersey" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/navagation.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div id="header_wrapper">
+        <header><h1>Kyle Kersey</h1></header>
+        <nav>
+            <ul class="nav_list">
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="projects.html">Projects</a>
+                    <ul>
+                        <li><a href="projects.html#natural">Natural</a></li>
+                        <li><a href="projects.html#mining">Mining</a></li>
+                        <li><a href="projects.html#cemetary">Cemetary</a></li>
+                        <li><a href="projects.html#college">College</a></li>
+                    </ul>
+                </li>
+                <li><a href="clients.html">Clients</a></li>
+                <li><a href="contact.html" class="current_page">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <div id="content_wrapper">
+            <form>
+                <table>
+                    <tr>
+
+                        <td><label for="first_name">First name</label></td>
+                        <td>
+                            <input type="text" name="first_name" id="first_name" size="30" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="last_name">Last name</label></td>
+                        <td><input type="text" name="last_name" id="last_name" size="30" /></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="email">Email</label></td>
+                        <td><input type="email" name="email" id="email" size="30" /></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="subject">Subject</label></td>
+                        <td><input type="text" name="subject" id="subject" size="30" /></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="message">Message</label></td>
+                        <td><textarea cols="40" rows="5" name="message" id="message"></textarea></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="subscribe">Subscribe</label></td>
+                        <td><input type="checkbox" name="subscribe" id="subscribe" /></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="submit" value="Submit" class="submit_button" /></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </main>
+    <footer>
+        Copyright &copy; 2014 Kyle Kersey
+    </footer>
+
+</body>
+</html>
