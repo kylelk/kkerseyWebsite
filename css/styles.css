@@ -25,44 +25,6 @@ h1 {
     text-shadow: 2px 2px 5px #999;
 }
 
-/*nav {
-    text-align: center;
-}
-
-.nav_list {
-    padding-left: 0px;
-    margin-bottom: 0px;
-}
-
-    .nav_list li {
-        display: inline;
-        list-style: none;
-    }
-
-    .nav_list a {
-        text-decoration: none;
-        padding: 0px 10px;
-        font-size: 125%;
-        color: #0000ff;
-    }
-
-        .nav_list a:hover {
-            color: #000000;
-        }
-
-nav a:visited {
-    color: #0000ff;
-}
-
-nav ul {
-    padding-bottom: 4px;
-}
-
-.current_page {
-    color: #000000;
-    border-bottom: 5px solid #00ff00;
-}*/
-
 main {
     width: 960px;
     margin: 0 auto;
