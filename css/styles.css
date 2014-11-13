@@ -1,3 +1,7 @@
+article, aside, header, nav, footer, section {
+    display: block;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -79,6 +83,7 @@ main {
     background-color: #ffffff;
     border: 1px solid black;
     padding: 10px;
+    padding-top: 5px;
     width: 920px;
 }
 
@@ -104,10 +109,6 @@ main {
 .fig1, .fig2, .fig3 {
     display: inline-block;
     
-}
-
-.project_gallery:after {
-    clear: both;
 }
 
 .submit_button {
