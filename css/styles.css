@@ -118,6 +118,7 @@ main {
     box-shadow: 2px 2px 2px #808080;
     height: 1.5em;
     width: 5em;
+    border-radius: 0;
 }
 
     .submit_button:active {
@@ -166,12 +167,12 @@ footer {
     margin: 0 auto;
 }
 
-    #contact_form label {
+#contact_form label {
     display: inline-block;
     margin-bottom: 0.5em;
     text-align: right;
     width: 8em;
-    }
+}
 
     #contact_form input, #contact_form textarea {
 

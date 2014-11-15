@@ -59,6 +59,7 @@ nav ul {
                 padding: 0px;
                 display: block;
             }
+
         nav ul li:hover ul {
             display: block;
             visibility: visible;
