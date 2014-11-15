@@ -90,7 +90,6 @@ main {
 .project_gallery {
     width: 100%;
     margin: 0 auto;
-   
 }
 
     .project_gallery figcaption {
@@ -108,7 +107,6 @@ main {
 
 .fig1, .fig2, .fig3 {
     display: inline-block;
-    
 }
 
 .submit_button {
@@ -157,3 +155,28 @@ footer {
         margin: 2px;
         border: 1px solid #808080;
     }
+
+#contact_form_container {
+    margin-left: 180px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+#contact_form {
+    margin: 0 auto;
+}
+
+    #contact_form label {
+    display: inline-block;
+    margin-bottom: 0.5em;
+    text-align: right;
+    width: 8em;
+    }
+
+    #contact_form input, #contact_form textarea {
+
+    }
+
+  #contact_form .submit_button {
+      margin-left: 8em;
+  }

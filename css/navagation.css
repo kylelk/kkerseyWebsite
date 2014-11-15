@@ -1,4 +1,4 @@
-﻿nav {
+nav {
     text-align: center;
     padding-bottom: 4px;
 }
@@ -68,6 +68,10 @@ nav ul {
         nav ul li ul li:hover {
             background: linear-gradient(90deg, rgba(238, 238, 238, 0), #00ff00, #00ff00, rgba(238, 238, 238, 0));
         }
+
+.nav_tab {
+    border-bottom: 3px solid #eee;
+}
 
 .current_page {
     color: #000000;
