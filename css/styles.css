@@ -149,13 +149,13 @@ footer {
     white-space: nowrap;
 }
 
-    .image_gallery img {
-        max-height: 300px;
-        width: auto;
-        display: inline;
-        margin: 2px;
-        border: 1px solid #808080;
-    }
+.image_gallery img {
+    max-height: 300px;
+    width: auto;
+    display: inline;
+    margin: 2px;
+    border: 1px solid #808080;
+}
 
 #contact_form_container {
     margin-left: 180px;
