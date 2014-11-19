@@ -67,6 +67,7 @@ main {
     }
 
 #content_wrapper {
+    margin: 0 auto;
     padding: 10px;
     font-family: Georgia, Times, serif;
 }
