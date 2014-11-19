@@ -99,7 +99,6 @@ main {
 
     .project_gallery img {
         border: 1px solid black;
-        width: 300px;
     }
 
     .project_gallery figure {
@@ -107,7 +106,15 @@ main {
     }
 
 .fig1, .fig2, .fig3 {
+    width: 300px;
     display: inline-block;
+}
+
+.fig {
+    display: inline-block;
+}
+.panorama img{
+    width: 920px;
 }
 
 .submit_button {
