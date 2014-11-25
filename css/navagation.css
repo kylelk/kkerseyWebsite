@@ -40,7 +40,6 @@ nav ul {
     nav ul li {
         display: inline-block;
         position: relative;
-        transition: all 0.2s;
     }
 
         nav ul li ul {
@@ -48,7 +47,8 @@ nav ul {
             left: 0;
             display: none;
             visibility: hidden;
-            -transition: opacity 0.2s;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
         }
 
             nav ul li ul li {
@@ -60,6 +60,8 @@ nav ul {
             display: block;
             visibility: visible;
             background: linear-gradient(90deg, rgba(238, 238, 238, 0), #00CCFF, #00CCFF,rgba(238, 238, 238, 0));
+            opacity: 1;
+            transition: opacity .5s ease-in-out;
         }
 
         nav ul li ul li:hover {

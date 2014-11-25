@@ -44,27 +44,27 @@ main {
     font-family: Tahoma, Verdana, Segoe;
 }
 
-    .projects ul, .projects li {
-        list-style: none;
-        padding: 0px;
-        margin: 0;
-    }
+.projects ul, .projects li {
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+}
 
-    .projects a {
-        text-decoration: none;
-        color: #ffffff;
-        font-size: 1.2em;
-        font-weight: bold;
-        padding: 1px 10px;
-    }
+.projects a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 1px 10px;
+}
 
-    .projects li:hover {
-        background-color: #00ff00;
-    }
+.projects li:hover {
+    background-color: #00ff00;
+}
 
-    .projects li:last-child:hover {
-        border-bottom-right-radius: 1em;
-    }
+.projects li:last-child:hover {
+    border-bottom-right-radius: 1em;
+}
 
 #content_wrapper {
     margin: 0 auto;
@@ -95,24 +95,27 @@ main {
 
 .project_gallery figcaption {
     text-align: center;
+    margin: 0;
 }
 
 .project_gallery img {
     border: 1px solid black;
+    position: relative;
+    z-index: 1;
 }
 
 .project_gallery figure {
     margin: 0;
 }
 
-.fig1, .fig2, .fig3 {
+/*.fig1, .fig2, .fig3 {
     width: 300px;
     display: inline-block;
-}
+}*/
 
 .fig {
     display: inline-block;
-    z-index: 2;
+    z-index: 1;
     /*position:relative;*/
 }
 .panorama img{
@@ -148,7 +151,7 @@ footer {
 
 .image_gallery figure {
     display: inline;
-    margin: 10px auto;
+    /*margin: 10px auto;*/
 }
 
 .image_gallery {
@@ -201,7 +204,11 @@ footer {
     color: #ffffff;
     text-align: center;
     position: relative;
-    top: -28px;
+    top: 300px;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
 }
 
 
@@ -211,5 +218,5 @@ footer {
     -webkit-transition: opacity 0.5s ease-in-out;
     -moz-transition: opacity 0.5s ease-in-out;
     -o-transition: opacity 0.5s ease-in-out;
-    transition: opacity 0.5s ease-in-out
+    transition: opacity 0.5s ease-in-out;
 }
