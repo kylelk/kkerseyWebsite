@@ -187,9 +187,9 @@ footer {
     width: 8em;
 }
 
-    #contact_form input, #contact_form textarea {
+#contact_form input, #contact_form textarea {
 
-    }
+}
 
   #contact_form .submit_button {
       margin-left: 8em;
@@ -205,18 +205,19 @@ footer {
     text-align: center;
     position: relative;
     top: 300px;
-    -webkit-transition: opacity 0.5s ease-in-out;
-    -moz-transition: opacity 0.5s ease-in-out;
-    -o-transition: opacity 0.5s ease-in-out;
-    transition: opacity 0.5s ease-in-out;
+    font-family: "Times New Roman", Arial, Helvetica;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
 }
 
 
 .location_info:hover {
     z-index: 10;
     opacity: 0.5;
-    -webkit-transition: opacity 0.5s ease-in-out;
-    -moz-transition: opacity 0.5s ease-in-out;
-    -o-transition: opacity 0.5s ease-in-out;
-    transition: opacity 0.5s ease-in-out;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
 }
